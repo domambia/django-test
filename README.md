@@ -1,2 +1,2 @@
 # django-test
-The testing app
+The Recipe application with Django 
