@@ -1,7 +1,9 @@
-[flak8]
+[flake8]
+ignore = D203
 exclude =
-    migrations
+    migrations,
+    settings.py,
+    manage.py,
     __pycache__
-    settings.py 
-    manage.py 
-    
+    .git,
+max-complexity = 10
